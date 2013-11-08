@@ -1,0 +1,17 @@
+//
+//  FileReadWrite.h
+//  Gimik
+//
+//  Created by Nandhakumar on 16/10/12.
+//  Copyright (c) 2012 Hakuna Matata Solutions Pvt. Ltd. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface FileReadWrite : NSObject{
+    
+}
++(void)writeFile:(NSString *)fileName data:(id)data;
++(NSMutableArray *)readFile:(NSString *)fileName;
+
+@end

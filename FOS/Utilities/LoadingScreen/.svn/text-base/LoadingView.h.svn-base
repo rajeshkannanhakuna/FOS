@@ -1,0 +1,19 @@
+//
+//  LoadingView.h
+//  OneLead
+//
+//  Created by Ithayakumar on 31/10/11.
+//  Copyright 2011 Hakuna Matata Solutions Pvt. Ltd. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface LoadingView : UIView {
+
+}
+
+- (id) initLoading ;
+- (void) removeLoadingView;
+
+@end
